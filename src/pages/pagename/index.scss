@@ -1,0 +1,10 @@
+@import "../../common/css/_reset.scss";
+@import "../../common/css/_base.scss";
+@import "../../templates/account/_index.scss";
+
+body {
+  text-align: center;
+}
+.account {
+  color: #f00;
+}

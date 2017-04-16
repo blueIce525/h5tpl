@@ -1,0 +1,47 @@
+.weitao-box {
+  padding: 24px 24px 0 24px;
+}
+.account {
+  a {
+    display: -moz-box;
+    display: -webkit-box;
+    padding-bottom: 24px;
+    overflow: hidden;
+
+  }
+  img {
+    width: 64px;
+    height: 64px;
+    margin-right: 18px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12); /*no*/
+  }
+  .name-time {
+    position: relative;
+    height: 64px;
+    overflow: hidden;
+  }
+  .name {
+    font-size: 28px; /*px*/
+    color: #000;
+    width: 350px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    word-break: break-all;
+
+  }
+  .circle-name {
+    height: 64px;
+    line-height: 64px;
+  }
+  .pub-time {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #999;
+    font-size: 20px; /*px*/
+  }
+}
